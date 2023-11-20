@@ -1,0 +1,47 @@
+.registerContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+.registerCancel {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    cursor: pointer;
+  }
+  
+  .registerWrapper {
+    max-height: 100vh; 
+    height: 650px;      
+    justify-content: flex-start;  
+    padding: 40px 20px 40px 20px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+  }
+  .registerTitle {
+    margin-bottom: 20px;  
+    color: #333;     
+    font-size: 24px; 
+    text-align: center; 
+  }
+  
+  
+  .registerCancel {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    cursor: pointer;
+  }
+  
