@@ -20,5 +20,8 @@
   "homepage": "https://github.com/Zramouu/World-Map-Visualizer#readme",
   "devDependencies": {
     "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "w3c-hr-time": "^1.0.2"
   }
 }
