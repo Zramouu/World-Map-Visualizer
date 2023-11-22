@@ -25,6 +25,7 @@
   "homepage": "https://github.com/Zramouu/World-Map-Visualizer#readme",
   "devDependencies": {
     "concurrently": "^8.2.2",
-    "serve": "^14.2.1"
+    "serve": "^14.2.1",
+    "react-scripts": "^4.0.3"
   }
 }
