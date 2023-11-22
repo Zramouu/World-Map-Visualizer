@@ -29,6 +29,7 @@
     "serve": "^14.2.1"
   },
   "dependencies": {
+    "bootstrap-icons": "^1.11.2",
     "react-dom": "^18.2.0"
   }
 }
