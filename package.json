@@ -1,0 +1,29 @@
+{
+  "name": "mapping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run start-frontend\" \"npm run start-Backend\"",
+    "start-frontend": "cd frontend && yarn start",
+    "start-Backend": "cd Backend && yarn start",
+    "build-frontend": "cd frontend && yarn build",
+    "serve-frontend": "cd frontend/build && serve -s",
+    "build": "npm run build-frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zramouu/World-Map-Visualizer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zramouu/World-Map-Visualizer/issues"
+  },
+  "homepage": "https://github.com/Zramouu/World-Map-Visualizer#readme",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "serve": "^14.2.1"
+  }
+}
