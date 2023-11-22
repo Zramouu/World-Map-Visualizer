@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build-frontend && concurrently \"npm run serve-frontend\" \"npm run start-Backend\"",
+    "start": "yarn build-frontend && concurrently \"yarn serve-frontend\" \"yarn start-Backend\"",
     "start-frontend": "cd frontend && yarn start",
     "start-Backend": "cd Backend && yarn start",
     "build-frontend": "cd frontend && yarn build",
     "serve-frontend": "cd frontend/build && serve -s",
-    "build": "npm run build-frontend",
+    "build": "yarn build-frontend",
     "install-frontend": "cd frontend && yarn install"
   },
   "repository": {
