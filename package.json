@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/Zramouu/World-Map-Visualizer#readme",
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "concurrently": "^8.2.2",
     "react-scripts": "^5.0.1",
     "serve": "^14.2.1"
