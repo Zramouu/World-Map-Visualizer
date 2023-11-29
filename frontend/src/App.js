@@ -45,7 +45,7 @@ function App() {
   useEffect(() => {
     const getPins = async () => {
       try {
-        const res = await axios.get("http://localhost:8800/api/pins");
+        const res = await axios.get(`${process.env.REACT_APP_BACKEND_URL}/api/pins`);
         setPins(res.data);
         
         // Fetch weather data for each pin
