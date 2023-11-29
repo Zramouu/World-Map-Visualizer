@@ -27,6 +27,7 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "concurrently": "^8.2.2",
+    "nodemon": "^3.0.1",
     "react-scripts": "^5.0.1",
     "serve": "^14.2.1"
   },
@@ -42,6 +43,6 @@
     "timeago.js": "^4.0.2"
   },
   "engines": {
-    "node": "14.x"
+    "node": "16.20.2"
   }
 }
