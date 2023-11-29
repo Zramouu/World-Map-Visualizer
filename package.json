@@ -10,7 +10,8 @@
     "build-frontend": "cd frontend && yarn build",
     "serve-frontend": "cd frontend/build && serve -s",
     "build": "yarn build-frontend",
-    "install-frontend": "cd frontend && yarn install"
+    "install-frontend": "cd frontend && yarn install",
+    "postinstall": "npm rebuild bcrypt --update-binary"
   },
   "repository": {
     "type": "git",
@@ -39,5 +40,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "timeago.js": "^4.0.2"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
