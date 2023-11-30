@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start": "yarn build-frontend && concurrently \"yarn serve-frontend\" \"yarn start-Backend\"",
-    "start-frontend": "cd frontend && yarn start",
+    "start-frontend": "yarn --cwd frontend start",
     "start-Backend": "cd Backend && yarn start",
-    "build-frontend": "cd frontend && yarn build",
+    "build-frontend": "yarn --cwd frontend build",
     "serve-frontend": "cd frontend/build && serve -s",
     "build": "yarn build-frontend",
-    "install-frontend": "cd frontend && yarn install",
+    "install-frontend": "yarn --cwd frontend install",
     "postinstall": "npm rebuild bcrypt --update-binary"
   },
   "repository": {
